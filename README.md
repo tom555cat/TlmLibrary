@@ -25,6 +25,9 @@ pod 'TlmLibrary'
 * 0.1.1
     1. 创建库。
 
+* 0.1.2
+    2. 创建二进制静态库。
+
 ## Author
 
 tongleiming, tongleiming@corp.rrzcp8.com
