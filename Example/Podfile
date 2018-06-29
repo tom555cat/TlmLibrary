@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TlmLibrary_Example' do
+  pod 'TlmLibrary', :path => '../'
+
+  target 'TlmLibrary_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
