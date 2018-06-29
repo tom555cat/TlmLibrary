@@ -1,0 +1,6 @@
+framework module TlmLibrary {
+  umbrella header "TlmLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "TlmLibrary",
+  "version": "0.1.0",
+  "summary": "A short description of TlmLibrary.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tongleiming/TlmLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tongleiming": "tongleiming@corp.rrzcp8.com"
+  },
+  "source": {
+    "git": "https://github.com/tongleiming/TlmLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TlmLibrary/Classes/**/*"
+}
