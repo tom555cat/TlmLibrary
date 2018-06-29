@@ -1,5 +1,5 @@
 PODS:
-  - TlmLibrary (0.1.0)
+  - TlmLibrary (0.1.2)
 
 DEPENDENCIES:
   - TlmLibrary (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  TlmLibrary: 8084ebfcc5a74f532927f12fc27632d31f399c30
+  TlmLibrary: 06df67e63df7e720c77f593744d0729f5600aa85
 
 PODFILE CHECKSUM: 730cf1dddc4ac9d868d1d07dfb28a24d497fa367
 

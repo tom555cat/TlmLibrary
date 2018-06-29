@@ -1,6 +1,0 @@
-framework module Pods_TlmLibrary_Example {
-  umbrella header "Pods-TlmLibrary_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -1,6 +1,6 @@
 {
   "name": "TlmLibrary",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "A short description of TlmLibrary.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/tom555cat/TlmLibrary",
@@ -13,14 +13,11 @@
   },
   "source": {
     "git": "https://github.com/tom555cat/TlmLibrary.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "Pod/Products/include/**",
-  "public_header_files": "Pod/Products/include/*.h",
-  "ios": {
-    "vendored_libraries": "Pod/Products/lib/libTlmLibrary.a"
-  }
+  "source_files": "TlmLibrary/Classes/**/*",
+  "public_header_files": "Pod/Classes/**/*.h"
 }
