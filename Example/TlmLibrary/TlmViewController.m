@@ -7,6 +7,7 @@
 //
 
 #import "TlmViewController.h"
+#import "TlmTest.h"
 
 @interface TlmViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    TlmTest *test = [[TlmTest alloc] init];
+    [test testFunction];
 }
 
 - (void)didReceiveMemoryWarning

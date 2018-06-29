@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of TlmLibrary.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/tongleiming/TlmLibrary",
+  "homepage": "https://github.com/tom555cat/TlmLibrary",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,15 @@
     "tongleiming": "tongleiming@corp.rrzcp8.com"
   },
   "source": {
-    "git": "https://github.com/tongleiming/TlmLibrary.git",
+    "git": "https://github.com/tom555cat/TlmLibrary.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "TlmLibrary/Classes/**/*"
+  "source_files": "Pod/Products/include/**",
+  "public_header_files": "Pod/Products/include/*.h",
+  "ios": {
+    "vendored_libraries": "Pod/Products/lib/libTlmLibrary.a"
+  }
 }

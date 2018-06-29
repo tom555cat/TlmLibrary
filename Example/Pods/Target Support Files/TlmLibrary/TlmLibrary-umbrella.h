@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "TlmTest.h"
 
 FOUNDATION_EXPORT double TlmLibraryVersionNumber;
 FOUNDATION_EXPORT const unsigned char TlmLibraryVersionString[];

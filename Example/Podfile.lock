@@ -1,13 +1,7 @@
 PODS:
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
   - TlmLibrary (0.1.0)
 
 DEPENDENCIES:
-  - FBSnapshotTestCase
   - TlmLibrary (from `../`)
 
 EXTERNAL SOURCES:
@@ -15,9 +9,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  TlmLibrary: 26b2267b9aff1f10ee0f481141a195a884ad4319
+  TlmLibrary: 8084ebfcc5a74f532927f12fc27632d31f399c30
 
-PODFILE CHECKSUM: 9016abef786a1e7117c58dd0239a67561ef5088f
+PODFILE CHECKSUM: 730cf1dddc4ac9d868d1d07dfb28a24d497fa367
 
 COCOAPODS: 1.4.0

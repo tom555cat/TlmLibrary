@@ -30,13 +30,19 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'TlmLibrary/Classes/**/*'
+  #s.source_files = 'TlmLibrary/Classes/**/*'
+  s.source_files = 'Pod/Products/include/**'
   
   # s.resource_bundles = {
   #   'TlmLibrary' => ['TlmLibrary/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  #s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Products/include/*.h'
+
+  s.ios.vendored_libraries = 'Pod/Products/lib/libTlmLibrary.a'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+
+
 end

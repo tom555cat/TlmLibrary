@@ -7,463 +7,255 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
-		108A8B84F2643C6DECB6534EC9AA7F83 /* Pods-TlmLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 980076B0552A7906B1B5C22E7068F674 /* Pods-TlmLibrary_Tests-dummy.m */; };
-		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
-		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2FBFC8D78D9985861818034D61B1303E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = E7929F19566C177CD1F50D4E94660C94 /* ReplaceMe.m */; };
-		345F5CF51DD319B96F9D44B7F99756BD /* TlmLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 185FDD51C0CCB02BABFED840EF343337 /* TlmLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
-		40D0DFEED5F97602A6F5427567FDB72C /* Pods-TlmLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6DE0E9AD7163C864713C0A560795A63 /* Pods-TlmLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */; };
-		5B380C2F234F42460807F8F5DC500AE1 /* TlmLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 490DF49A2E0738DC0F3202E6032EDB19 /* TlmLibrary-dummy.m */; };
-		646E4F2701FC5B8CA10D2AB171B927AD /* Pods-TlmLibrary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8FE99897FE99C1F4333B50E52EB9E8 /* Pods-TlmLibrary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
-		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
-		7E7CC97F30852F338AC99BE288CE564F /* Pods-TlmLibrary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C709CC3E7F3253FFBBA08D1E42041573 /* Pods-TlmLibrary_Example-dummy.m */; };
-		7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */; };
-		841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */; };
-		91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
-		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
-		A7F9C5171054BBBA04A91F0D6B523527 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
-		B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27810809BAD71E4022600B21251449F /* QuartzCore.framework */; };
-		B6B732F84E1977D85D1D52A024D80669 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
-		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
-		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		D2C20AD53B82D7B7BF0E40538AC9EB6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
-		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
+		50309425BEDE4414A8D9328092300710 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7086708F2C1690BFECC134921FE3AB04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8253EBBA15A87AC55FD5943B9F78E76A /* Pods-TlmLibrary_Example-TlmLibraryBinary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF60DE0679D0E3E447C96FF9D21A893 /* Pods-TlmLibrary_Example-TlmLibraryBinary-dummy.m */; };
+		DC8DD1319F3BA13A97532FBFCD2DDE9A /* Pods-TlmLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA20B1ED0E256BC2C36B9C9AD16C990D /* Pods-TlmLibrary_Tests-dummy.m */; };
+		E1184F72E9EA2E943B2A5BABB21C4771 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F2EE9A8AEB80048C2C62C1BC113D3E1A /* Pods-TlmLibrary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A0B8C81B00D0148F98C23884A4E7BD /* Pods-TlmLibrary_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		657069EEE50987DFE344B7073FCD580B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 34CD2E3428AB802BACA62286FF5074B1;
-			remoteInfo = FBSnapshotTestCase;
-		};
-		FFB8F832B477D757A2D28978D99A3469 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 416A38EE756674C54F3351956218B502;
-			remoteInfo = TlmLibrary;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		060D6F61C4BF7807D4B1CB532901AEB0 /* Pods-TlmLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TlmLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		0CD0325F57B2510A7839769F244D8BDF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		13F8A7C0E0DED0C46EA54F8CC37E9AE3 /* Pods-TlmLibrary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TlmLibrary_Example.modulemap"; sourceTree = "<group>"; };
-		185FDD51C0CCB02BABFED840EF343337 /* TlmLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TlmLibrary-umbrella.h"; sourceTree = "<group>"; };
-		2EA5F388B4949F2090F26088BF8CAEE8 /* Pods_TlmLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TlmLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		330E8968D72522CB1B05C290B16BB7FB /* Pods-TlmLibrary_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TlmLibrary_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		3E5BDBFDC565D73E7D73348EA2C870A2 /* Pods-TlmLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TlmLibrary_Tests.modulemap"; sourceTree = "<group>"; };
-		42D70A00441E2DA9BB17E24E0A8C3466 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		490DF49A2E0738DC0F3202E6032EDB19 /* TlmLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TlmLibrary-dummy.m"; sourceTree = "<group>"; };
-		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		67E276593855381568F725E69496F29C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		68E64B2DEE892E99FC0C01BA9D783591 /* Pods-TlmLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TlmLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		6C8FE99897FE99C1F4333B50E52EB9E8 /* Pods-TlmLibrary_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TlmLibrary_Example-umbrella.h"; sourceTree = "<group>"; };
-		7111E56631C08EAF90D36C2413326DCB /* Pods_TlmLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TlmLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7256336BC129852EDC23A0A0365E69AB /* Pods-TlmLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TlmLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7372EDAAB7CE3EC075E5DBA0A6C33C3B /* Pods-TlmLibrary_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TlmLibrary_Tests-resources.sh"; sourceTree = "<group>"; };
-		7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
-		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		83E2BC3DF3D3853B9845C3E661FD81AD /* Pods-TlmLibrary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TlmLibrary_Example-frameworks.sh"; sourceTree = "<group>"; };
-		843D9B48390A92CD7009A41920810307 /* TlmLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = TlmLibrary.podspec; sourceTree = "<group>"; };
-		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93C79E35ACCEFA84CF2A3777633A0250 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		980076B0552A7906B1B5C22E7068F674 /* Pods-TlmLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TlmLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
-		A0C73F26D1767228EE1C0E09A0845700 /* TlmLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TlmLibrary.modulemap; sourceTree = "<group>"; };
-		A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		A27810809BAD71E4022600B21251449F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		A410925FD28DCEE2F5F02D30E6CE8FF9 /* Pods-TlmLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TlmLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
-		AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		ABEF3A2D768E724F6D5F52E6293F64D1 /* Pods-TlmLibrary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TlmLibrary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B73B604F8145B36840E84907579CC489 /* TlmLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TlmLibrary-prefix.pch"; sourceTree = "<group>"; };
-		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		C709CC3E7F3253FFBBA08D1E42041573 /* Pods-TlmLibrary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TlmLibrary_Example-dummy.m"; sourceTree = "<group>"; };
-		D7D7288309C9A2255393FF3A45AE02CA /* Pods-TlmLibrary_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TlmLibrary_Example-resources.sh"; sourceTree = "<group>"; };
-		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		DAB9F3480C6A5ACB26DC1F8BC8D82A63 /* Pods-TlmLibrary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TlmLibrary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DCB441C8B052C9604D0588F0AF19E63D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		E6DE0E9AD7163C864713C0A560795A63 /* Pods-TlmLibrary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TlmLibrary_Tests-umbrella.h"; sourceTree = "<group>"; };
-		E7929F19566C177CD1F50D4E94660C94 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = TlmLibrary/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		E7F2C8D68609742D7057F32AC0205C62 /* Pods-TlmLibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TlmLibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EA0D04138B932B644714F2F0E855267B /* TlmLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TlmLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA982F7776BF8F6A06C4B2F7A21A500C /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EAC82198557C37E6B7F60C1AF89122EC /* TlmLibrary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TlmLibrary.xcconfig; sourceTree = "<group>"; };
-		EF519A026B10AC73ABBE6E658308B29D /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		F01C8BC9DD2E011864FA34483FB81B46 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F10CBDEE32E5F6BDECFB3D41F7DD0B03 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		F4E20AC4A1676C906B67F516A20B7B9F /* Pods-TlmLibrary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TlmLibrary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		025014F703468CC3A51D61CF58176264 /* Pods-TlmLibrary_Example-TlmLibraryBinary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TlmLibrary_Example-TlmLibraryBinary.debug.xcconfig"; sourceTree = "<group>"; };
+		1F06AED8509A68B0B7C5C4C59D673149 /* Pods-TlmLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TlmLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
+		238D006CDA8ACFE723CA5A3DA599AF98 /* Pods-TlmLibrary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TlmLibrary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		28A9B5DCF238A9857DC25E689CA2E6F6 /* Pods-TlmLibrary_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TlmLibrary_Example-resources.sh"; sourceTree = "<group>"; };
+		3462540941656E2ADF45699C1ACEDE43 /* Pods-TlmLibrary_Example-TlmLibraryBinary-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TlmLibrary_Example-TlmLibraryBinary-acknowledgements.plist"; sourceTree = "<group>"; };
+		39C4FA089A7A69DC7E80A4D6430281AB /* TlmLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TlmLibrary.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3A085A891099CE69605AFC7E373621E4 /* Pods-TlmLibrary_Example-TlmLibraryBinary-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TlmLibrary_Example-TlmLibraryBinary-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4B2091FB0D1F1F80B76B47A4540403FC /* Pods-TlmLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TlmLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4B57245C6E830E001427466D8ABF1FB3 /* TlmLibraryBinary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TlmLibraryBinary.h; path = Pod/Products/include/TlmLibraryBinary.h; sourceTree = "<group>"; };
+		4FB126D00861830269F26E6ADD6C123D /* Pods-TlmLibrary_Example-TlmLibraryBinary-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TlmLibrary_Example-TlmLibraryBinary-resources.sh"; sourceTree = "<group>"; };
+		5230AAA0E0A53321091C120448B7BC02 /* Pods-TlmLibrary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TlmLibrary_Example-frameworks.sh"; sourceTree = "<group>"; };
+		633FBEF5F07D67DACBC55FB4CB56A2E4 /* libTlmLibrary.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libTlmLibrary.a; path = Pod/Products/lib/libTlmLibrary.a; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6EA4B1B72D004F86874C52715898CC95 /* Pods-TlmLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TlmLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		71B63F82E10696234D6AB980D4AB070D /* Pods-TlmLibrary_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TlmLibrary_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		75B76017E5DAD870550147DF936EC904 /* Pods-TlmLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TlmLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		784D4E76FE51CE54409589CA6586462E /* Pods-TlmLibrary_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TlmLibrary_Tests-resources.sh"; sourceTree = "<group>"; };
+		793098E3CB1D0F1D3843C9421BBB66D2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8DD7F3081E221EEDD1D7D1E9768B58E0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		999264AF25FB53557F15D789DF9E0515 /* libPods-TlmLibrary_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TlmLibrary_Example.a"; path = "libPods-TlmLibrary_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5A0B8C81B00D0148F98C23884A4E7BD /* Pods-TlmLibrary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TlmLibrary_Example-dummy.m"; sourceTree = "<group>"; };
+		AFB0ADD131FECD45B993EBE1918D2EDA /* Pods-TlmLibrary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TlmLibrary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B49B637C355D1C9E65D641435BEA59BA /* Pods-TlmLibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TlmLibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C5652EA8D727933F53F299DA1C14BA0C /* libPods-TlmLibrary_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TlmLibrary_Tests.a"; path = "libPods-TlmLibrary_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C97A02DC5290F5048A95E8F1E053BAAA /* Pods-TlmLibrary_Example-TlmLibraryBinary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TlmLibrary_Example-TlmLibraryBinary.release.xcconfig"; sourceTree = "<group>"; };
+		CEE383B7ECD424F9B0C52A63F3ACBFCE /* TlmTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TlmTest.h; path = Pod/Products/include/TlmTest.h; sourceTree = "<group>"; };
+		DA20B1ED0E256BC2C36B9C9AD16C990D /* Pods-TlmLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TlmLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
+		ECF60DE0679D0E3E447C96FF9D21A893 /* Pods-TlmLibrary_Example-TlmLibraryBinary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TlmLibrary_Example-TlmLibraryBinary-dummy.m"; sourceTree = "<group>"; };
+		F30B4914B3796FA61EB4F44E46E93C57 /* Pods-TlmLibrary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TlmLibrary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FF0F503B2A738735A2F3EECD82159910 /* libPods-TlmLibrary_Example-TlmLibraryBinary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TlmLibrary_Example-TlmLibraryBinary.a"; path = "libPods-TlmLibrary_Example-TlmLibraryBinary.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1D421A30A1BDB7E1C4216F64D0C939B1 /* Frameworks */ = {
+		16BD007F13DB1B2976A6B9EB76D99FDE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */,
-				B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */,
-				841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */,
-				7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */,
+				7086708F2C1690BFECC134921FE3AB04 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4C9916039897ED3CE0202A1129C35823 /* Frameworks */ = {
+		92029A29C1C5CB1F43F0A199F9E3059E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6B732F84E1977D85D1D52A024D80669 /* Foundation.framework in Frameworks */,
+				E1184F72E9EA2E943B2A5BABB21C4771 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		65654BFBFE8BB05A7E7B7A7D01E3AE73 /* Frameworks */ = {
+		F46B8B9A62BCE5C0C1D066B4E9A1D3DC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7F9C5171054BBBA04A91F0D6B523527 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		68411BEE9DF5A75CDAF12B6FBE34265F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D2C20AD53B82D7B7BF0E40538AC9EB6F /* Foundation.framework in Frameworks */,
+				50309425BEDE4414A8D9328092300710 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+		2CEDD15588A6FA128EC4F3D30A9D8CF5 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				8D22B0D091B0427E43C82354D9CA8E06 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		171708951306AE1A24BE9D3C17154CD6 /* Pods-TlmLibrary_Example */ = {
-			isa = PBXGroup;
-			children = (
-				DCB441C8B052C9604D0588F0AF19E63D /* Info.plist */,
-				13F8A7C0E0DED0C46EA54F8CC37E9AE3 /* Pods-TlmLibrary_Example.modulemap */,
-				DAB9F3480C6A5ACB26DC1F8BC8D82A63 /* Pods-TlmLibrary_Example-acknowledgements.markdown */,
-				F4E20AC4A1676C906B67F516A20B7B9F /* Pods-TlmLibrary_Example-acknowledgements.plist */,
-				C709CC3E7F3253FFBBA08D1E42041573 /* Pods-TlmLibrary_Example-dummy.m */,
-				83E2BC3DF3D3853B9845C3E661FD81AD /* Pods-TlmLibrary_Example-frameworks.sh */,
-				D7D7288309C9A2255393FF3A45AE02CA /* Pods-TlmLibrary_Example-resources.sh */,
-				6C8FE99897FE99C1F4333B50E52EB9E8 /* Pods-TlmLibrary_Example-umbrella.h */,
-				7256336BC129852EDC23A0A0365E69AB /* Pods-TlmLibrary_Example.debug.xcconfig */,
-				A410925FD28DCEE2F5F02D30E6CE8FF9 /* Pods-TlmLibrary_Example.release.xcconfig */,
-			);
-			name = "Pods-TlmLibrary_Example";
-			path = "Target Support Files/Pods-TlmLibrary_Example";
-			sourceTree = "<group>";
-		};
-		2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */ = {
-			isa = PBXGroup;
-			children = (
-				F35791481CAFDD8E7715AE1B44687328 /* Core */,
-				3288FCB8E15F6401DE6220AE5CA1D27B /* Support Files */,
-				99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */,
-			);
-			path = FBSnapshotTestCase;
-			sourceTree = "<group>";
-		};
-		3288FCB8E15F6401DE6220AE5CA1D27B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F10CBDEE32E5F6BDECFB3D41F7DD0B03 /* FBSnapshotTestCase.modulemap */,
-				7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */,
-				4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */,
-				EF519A026B10AC73ABBE6E658308B29D /* FBSnapshotTestCase-prefix.pch */,
-				A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */,
-				67E276593855381568F725E69496F29C /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/FBSnapshotTestCase";
-			sourceTree = "<group>";
-		};
-		4B56EE1329BC07C1234853E25313C2CB /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				93C79E35ACCEFA84CF2A3777633A0250 /* LICENSE */,
-				0CD0325F57B2510A7839769F244D8BDF /* README.md */,
-				843D9B48390A92CD7009A41920810307 /* TlmLibrary.podspec */,
+				793098E3CB1D0F1D3843C9421BBB66D2 /* LICENSE */,
+				8DD7F3081E221EEDD1D7D1E9768B58E0 /* README.md */,
+				39C4FA089A7A69DC7E80A4D6430281AB /* TlmLibrary.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		60524E53D0002CE85811D1E78D6D8B17 /* Development Pods */ = {
+		72E0D01892A6CB495506761A7F1C19E0 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E3961553791094D9588248A06B6CF4AB /* TlmLibrary */,
+				C52D16DE335583DACF1B5F21CFF25E55 /* Pods-TlmLibrary_Example */,
+				F7A4B70A41A69A712BB85063CAAE97F3 /* Pods-TlmLibrary_Example-TlmLibraryBinary */,
+				FECBDDF514675E9DFD585AB8ECE82663 /* Pods-TlmLibrary_Tests */,
 			);
-			name = "Development Pods";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				60524E53D0002CE85811D1E78D6D8B17 /* Development Pods */,
-				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
-				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
-				FE522CC287F4EFED8EB98C6B91CD2992 /* Products */,
-				C33BA4F298D02C56B566A415A67C75B0 /* Targets Support Files */,
+				849A5BD384A78FC570C1C4185D905FF4 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C68625BBE02B1F4D80B151CFE2C5419D /* Products */,
+				72E0D01892A6CB495506761A7F1C19E0 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7DE30601FD925B614545EE0C77A85D55 /* Pods-TlmLibrary_Tests */ = {
+		849A5BD384A78FC570C1C4185D905FF4 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				42D70A00441E2DA9BB17E24E0A8C3466 /* Info.plist */,
-				3E5BDBFDC565D73E7D73348EA2C870A2 /* Pods-TlmLibrary_Tests.modulemap */,
-				E7F2C8D68609742D7057F32AC0205C62 /* Pods-TlmLibrary_Tests-acknowledgements.markdown */,
-				ABEF3A2D768E724F6D5F52E6293F64D1 /* Pods-TlmLibrary_Tests-acknowledgements.plist */,
-				980076B0552A7906B1B5C22E7068F674 /* Pods-TlmLibrary_Tests-dummy.m */,
-				330E8968D72522CB1B05C290B16BB7FB /* Pods-TlmLibrary_Tests-frameworks.sh */,
-				7372EDAAB7CE3EC075E5DBA0A6C33C3B /* Pods-TlmLibrary_Tests-resources.sh */,
-				E6DE0E9AD7163C864713C0A560795A63 /* Pods-TlmLibrary_Tests-umbrella.h */,
-				060D6F61C4BF7807D4B1CB532901AEB0 /* Pods-TlmLibrary_Tests.debug.xcconfig */,
-				68E64B2DEE892E99FC0C01BA9D783591 /* Pods-TlmLibrary_Tests.release.xcconfig */,
+				94B22A890906A7565E44F0636DCE7328 /* TlmLibrary */,
 			);
-			name = "Pods-TlmLibrary_Tests";
-			path = "Target Support Files/Pods-TlmLibrary_Tests";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		8D22B0D091B0427E43C82354D9CA8E06 /* iOS */ = {
+		94B22A890906A7565E44F0636DCE7328 /* TlmLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */,
-				A27810809BAD71E4022600B21251449F /* QuartzCore.framework */,
-				AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */,
-				3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */ = {
-			isa = PBXGroup;
-			children = (
-				D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */,
-			);
-			name = SwiftSupport;
-			sourceTree = "<group>";
-		};
-		C33BA4F298D02C56B566A415A67C75B0 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				171708951306AE1A24BE9D3C17154CD6 /* Pods-TlmLibrary_Example */,
-				7DE30601FD925B614545EE0C77A85D55 /* Pods-TlmLibrary_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		E3961553791094D9588248A06B6CF4AB /* TlmLibrary */ = {
-			isa = PBXGroup;
-			children = (
-				E7929F19566C177CD1F50D4E94660C94 /* ReplaceMe.m */,
-				4B56EE1329BC07C1234853E25313C2CB /* Pod */,
-				F040A8F7DC81F7174D80260E2B5F9150 /* Support Files */,
+				4B57245C6E830E001427466D8ABF1FB3 /* TlmLibraryBinary.h */,
+				CEE383B7ECD424F9B0C52A63F3ACBFCE /* TlmTest.h */,
+				9DD1E799706EB29C1D57851A8279E82D /* Frameworks */,
+				2CEDD15588A6FA128EC4F3D30A9D8CF5 /* Pod */,
 			);
 			name = TlmLibrary;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		F040A8F7DC81F7174D80260E2B5F9150 /* Support Files */ = {
+		9DD1E799706EB29C1D57851A8279E82D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F01C8BC9DD2E011864FA34483FB81B46 /* Info.plist */,
-				A0C73F26D1767228EE1C0E09A0845700 /* TlmLibrary.modulemap */,
-				EAC82198557C37E6B7F60C1AF89122EC /* TlmLibrary.xcconfig */,
-				490DF49A2E0738DC0F3202E6032EDB19 /* TlmLibrary-dummy.m */,
-				B73B604F8145B36840E84907579CC489 /* TlmLibrary-prefix.pch */,
-				185FDD51C0CCB02BABFED840EF343337 /* TlmLibrary-umbrella.h */,
+				633FBEF5F07D67DACBC55FB4CB56A2E4 /* libTlmLibrary.a */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TlmLibrary";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F35791481CAFDD8E7715AE1B44687328 /* Core */ = {
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */,
-				39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */,
-				7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */,
-				58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */,
-				1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */,
-				052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */,
-				B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */,
-				2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */,
-				432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */,
-				3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */,
-				85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */,
-				B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */,
-				0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */,
-				3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */,
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
-			name = Core;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FBD2D672921284E66F309CA3462F84D6 /* Pods */ = {
+		C52D16DE335583DACF1B5F21CFF25E55 /* Pods-TlmLibrary_Example */ = {
 			isa = PBXGroup;
 			children = (
-				2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */,
+				F30B4914B3796FA61EB4F44E46E93C57 /* Pods-TlmLibrary_Example-acknowledgements.markdown */,
+				238D006CDA8ACFE723CA5A3DA599AF98 /* Pods-TlmLibrary_Example-acknowledgements.plist */,
+				A5A0B8C81B00D0148F98C23884A4E7BD /* Pods-TlmLibrary_Example-dummy.m */,
+				5230AAA0E0A53321091C120448B7BC02 /* Pods-TlmLibrary_Example-frameworks.sh */,
+				28A9B5DCF238A9857DC25E689CA2E6F6 /* Pods-TlmLibrary_Example-resources.sh */,
+				6EA4B1B72D004F86874C52715898CC95 /* Pods-TlmLibrary_Example.debug.xcconfig */,
+				1F06AED8509A68B0B7C5C4C59D673149 /* Pods-TlmLibrary_Example.release.xcconfig */,
 			);
-			name = Pods;
+			name = "Pods-TlmLibrary_Example";
+			path = "Target Support Files/Pods-TlmLibrary_Example";
 			sourceTree = "<group>";
 		};
-		FE522CC287F4EFED8EB98C6B91CD2992 /* Products */ = {
+		C68625BBE02B1F4D80B151CFE2C5419D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EA982F7776BF8F6A06C4B2F7A21A500C /* FBSnapshotTestCase.framework */,
-				2EA5F388B4949F2090F26088BF8CAEE8 /* Pods_TlmLibrary_Example.framework */,
-				7111E56631C08EAF90D36C2413326DCB /* Pods_TlmLibrary_Tests.framework */,
-				EA0D04138B932B644714F2F0E855267B /* TlmLibrary.framework */,
+				999264AF25FB53557F15D789DF9E0515 /* libPods-TlmLibrary_Example.a */,
+				FF0F503B2A738735A2F3EECD82159910 /* libPods-TlmLibrary_Example-TlmLibraryBinary.a */,
+				C5652EA8D727933F53F299DA1C14BA0C /* libPods-TlmLibrary_Tests.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F7A4B70A41A69A712BB85063CAAE97F3 /* Pods-TlmLibrary_Example-TlmLibraryBinary */ = {
+			isa = PBXGroup;
+			children = (
+				3A085A891099CE69605AFC7E373621E4 /* Pods-TlmLibrary_Example-TlmLibraryBinary-acknowledgements.markdown */,
+				3462540941656E2ADF45699C1ACEDE43 /* Pods-TlmLibrary_Example-TlmLibraryBinary-acknowledgements.plist */,
+				ECF60DE0679D0E3E447C96FF9D21A893 /* Pods-TlmLibrary_Example-TlmLibraryBinary-dummy.m */,
+				4FB126D00861830269F26E6ADD6C123D /* Pods-TlmLibrary_Example-TlmLibraryBinary-resources.sh */,
+				025014F703468CC3A51D61CF58176264 /* Pods-TlmLibrary_Example-TlmLibraryBinary.debug.xcconfig */,
+				C97A02DC5290F5048A95E8F1E053BAAA /* Pods-TlmLibrary_Example-TlmLibraryBinary.release.xcconfig */,
+			);
+			name = "Pods-TlmLibrary_Example-TlmLibraryBinary";
+			path = "Target Support Files/Pods-TlmLibrary_Example-TlmLibraryBinary";
+			sourceTree = "<group>";
+		};
+		FECBDDF514675E9DFD585AB8ECE82663 /* Pods-TlmLibrary_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B49B637C355D1C9E65D641435BEA59BA /* Pods-TlmLibrary_Tests-acknowledgements.markdown */,
+				AFB0ADD131FECD45B993EBE1918D2EDA /* Pods-TlmLibrary_Tests-acknowledgements.plist */,
+				DA20B1ED0E256BC2C36B9C9AD16C990D /* Pods-TlmLibrary_Tests-dummy.m */,
+				71B63F82E10696234D6AB980D4AB070D /* Pods-TlmLibrary_Tests-frameworks.sh */,
+				784D4E76FE51CE54409589CA6586462E /* Pods-TlmLibrary_Tests-resources.sh */,
+				4B2091FB0D1F1F80B76B47A4540403FC /* Pods-TlmLibrary_Tests.debug.xcconfig */,
+				75B76017E5DAD870550147DF936EC904 /* Pods-TlmLibrary_Tests.release.xcconfig */,
+			);
+			name = "Pods-TlmLibrary_Tests";
+			path = "Target Support Files/Pods-TlmLibrary_Tests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		4E09DAEAAF4206601EFB59093A3217CC /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				646E4F2701FC5B8CA10D2AB171B927AD /* Pods-TlmLibrary_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		793A15247FE4025B0DB6464D6911913E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				345F5CF51DD319B96F9D44B7F99756BD /* TlmLibrary-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9DC6F5AC11E37A1EB45C6473C9E800B6 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */,
-				9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */,
-				BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */,
-				2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */,
-				BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */,
-				CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */,
-				051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */,
-				421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E5F932427DFAF4EFCCC1432EB2940CDB /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				40D0DFEED5F97602A6F5427567FDB72C /* Pods-TlmLibrary_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */ = {
+		13A4D50F01A4EC6CBB6690BBCDB637B0 /* Pods-TlmLibrary_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F28097D43AF5CD8DA838ABD52A053790 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildConfigurationList = 8839811117CA585DC087DA02D5E47C19 /* Build configuration list for PBXNativeTarget "Pods-TlmLibrary_Example" */;
 			buildPhases = (
-				E2E80CCD063D04B57A1A5E140726E8A4 /* Sources */,
-				1D421A30A1BDB7E1C4216F64D0C939B1 /* Frameworks */,
-				9DC6F5AC11E37A1EB45C6473C9E800B6 /* Headers */,
+				D4373D3DA73A8E7F034C1B658FF72E20 /* Sources */,
+				92029A29C1C5CB1F43F0A199F9E3059E /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = FBSnapshotTestCase;
-			productName = FBSnapshotTestCase;
-			productReference = EA982F7776BF8F6A06C4B2F7A21A500C /* FBSnapshotTestCase.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		416A38EE756674C54F3351956218B502 /* TlmLibrary */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 644EC868B397A8BD81245B09FBD1DB30 /* Build configuration list for PBXNativeTarget "TlmLibrary" */;
-			buildPhases = (
-				4EDAC222279F4E0F2057DB028E8915F0 /* Sources */,
-				65654BFBFE8BB05A7E7B7A7D01E3AE73 /* Frameworks */,
-				793A15247FE4025B0DB6464D6911913E /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = TlmLibrary;
-			productName = TlmLibrary;
-			productReference = EA0D04138B932B644714F2F0E855267B /* TlmLibrary.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		64F2BFCC09CFFD97E59A05D5CB3558F0 /* Pods-TlmLibrary_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7A894EC12D2C2054FE0EFED6F35AA414 /* Build configuration list for PBXNativeTarget "Pods-TlmLibrary_Example" */;
-			buildPhases = (
-				704AD95510917F8F59B304A2EB7F33E7 /* Sources */,
-				4C9916039897ED3CE0202A1129C35823 /* Frameworks */,
-				4E09DAEAAF4206601EFB59093A3217CC /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B0051748080BBF8C03ECC0A2ECBE52E9 /* PBXTargetDependency */,
 			);
 			name = "Pods-TlmLibrary_Example";
 			productName = "Pods-TlmLibrary_Example";
-			productReference = 2EA5F388B4949F2090F26088BF8CAEE8 /* Pods_TlmLibrary_Example.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 999264AF25FB53557F15D789DF9E0515 /* libPods-TlmLibrary_Example.a */;
+			productType = "com.apple.product-type.library.static";
 		};
-		732F08D52900B8DEFC1BFD9C0DF5A897 /* Pods-TlmLibrary_Tests */ = {
+		2679CC98486FC25A8200C1732FE0D0E9 /* Pods-TlmLibrary_Example-TlmLibraryBinary */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 34EF95F7D3FAEB5B052EFCD0D5CC0639 /* Build configuration list for PBXNativeTarget "Pods-TlmLibrary_Tests" */;
+			buildConfigurationList = 28F6A6A6E8A505C52D1F105A2936AB5A /* Build configuration list for PBXNativeTarget "Pods-TlmLibrary_Example-TlmLibraryBinary" */;
 			buildPhases = (
-				72B4FB949EF848B35EDF6544D6D00BEE /* Sources */,
-				68411BEE9DF5A75CDAF12B6FBE34265F /* Frameworks */,
-				E5F932427DFAF4EFCCC1432EB2940CDB /* Headers */,
+				37F581E4DF07B76EE2EF08493B7DD08A /* Sources */,
+				F46B8B9A62BCE5C0C1D066B4E9A1D3DC /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8F8A62D8F39BCAB00D6D77F62F1FEE81 /* PBXTargetDependency */,
+			);
+			name = "Pods-TlmLibrary_Example-TlmLibraryBinary";
+			productName = "Pods-TlmLibrary_Example-TlmLibraryBinary";
+			productReference = FF0F503B2A738735A2F3EECD82159910 /* libPods-TlmLibrary_Example-TlmLibraryBinary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E4FED099F204AB61B42241522B97FF65 /* Pods-TlmLibrary_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74AFCF1B87DB972431DC31705FC90BBF /* Build configuration list for PBXNativeTarget "Pods-TlmLibrary_Tests" */;
+			buildPhases = (
+				1752BB7B24CC37DAF408859CD689E3EA /* Sources */,
+				16BD007F13DB1B2976A6B9EB76D99FDE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
 			);
 			name = "Pods-TlmLibrary_Tests";
 			productName = "Pods-TlmLibrary_Tests";
-			productReference = 7111E56631C08EAF90D36C2413326DCB /* Pods_TlmLibrary_Tests.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = C5652EA8D727933F53F299DA1C14BA0C /* libPods-TlmLibrary_Tests.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -482,108 +274,84 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = FE522CC287F4EFED8EB98C6B91CD2992 /* Products */;
+			productRefGroup = C68625BBE02B1F4D80B151CFE2C5419D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */,
-				64F2BFCC09CFFD97E59A05D5CB3558F0 /* Pods-TlmLibrary_Example */,
-				732F08D52900B8DEFC1BFD9C0DF5A897 /* Pods-TlmLibrary_Tests */,
-				416A38EE756674C54F3351956218B502 /* TlmLibrary */,
+				13A4D50F01A4EC6CBB6690BBCDB637B0 /* Pods-TlmLibrary_Example */,
+				2679CC98486FC25A8200C1732FE0D0E9 /* Pods-TlmLibrary_Example-TlmLibraryBinary */,
+				E4FED099F204AB61B42241522B97FF65 /* Pods-TlmLibrary_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4EDAC222279F4E0F2057DB028E8915F0 /* Sources */ = {
+		1752BB7B24CC37DAF408859CD689E3EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FBFC8D78D9985861818034D61B1303E /* ReplaceMe.m in Sources */,
-				5B380C2F234F42460807F8F5DC500AE1 /* TlmLibrary-dummy.m in Sources */,
+				DC8DD1319F3BA13A97532FBFCD2DDE9A /* Pods-TlmLibrary_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		704AD95510917F8F59B304A2EB7F33E7 /* Sources */ = {
+		37F581E4DF07B76EE2EF08493B7DD08A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E7CC97F30852F338AC99BE288CE564F /* Pods-TlmLibrary_Example-dummy.m in Sources */,
+				8253EBBA15A87AC55FD5943B9F78E76A /* Pods-TlmLibrary_Example-TlmLibraryBinary-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		72B4FB949EF848B35EDF6544D6D00BEE /* Sources */ = {
+		D4373D3DA73A8E7F034C1B658FF72E20 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				108A8B84F2643C6DECB6534EC9AA7F83 /* Pods-TlmLibrary_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E2E80CCD063D04B57A1A5E140726E8A4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */,
-				BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */,
-				DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */,
-				A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */,
-				1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */,
-				094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */,
-				69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */,
-				35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */,
-				756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */,
+				F2EE9A8AEB80048C2C62C1BC113D3E1A /* Pods-TlmLibrary_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		8F8A62D8F39BCAB00D6D77F62F1FEE81 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FBSnapshotTestCase;
-			target = 34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */;
-			targetProxy = 657069EEE50987DFE344B7073FCD580B /* PBXContainerItemProxy */;
-		};
-		B0051748080BBF8C03ECC0A2ECBE52E9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TlmLibrary;
-			target = 416A38EE756674C54F3351956218B502 /* TlmLibrary */;
-			targetProxy = FFB8F832B477D757A2D28978D99A3469 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		35DDADADA146F09B902BE9D4E62713FB /* Release */ = {
+		1E328BD11DD6B9F8490504C36ECEE463 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A410925FD28DCEE2F5F02D30E6CE8FF9 /* Pods-TlmLibrary_Example.release.xcconfig */;
+			baseConfigurationReference = C97A02DC5290F5048A95E8F1E053BAAA /* Pods-TlmLibrary_Example-TlmLibraryBinary.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TlmLibrary_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TlmLibrary_Example/Pods-TlmLibrary_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TlmLibrary_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2FC118BA0D8763DD1407A0A0BDA6C01A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75B76017E5DAD870550147DF936EC904 /* Pods-TlmLibrary_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -650,65 +418,23 @@
 			};
 			name = Debug;
 		};
-		7502BDFD9B1FEF450A00FDDBCCDFD5E4 /* Release */ = {
+		605A72360B3EE75987C9B7BA3DC373B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EAC82198557C37E6B7F60C1AF89122EC /* TlmLibrary.xcconfig */;
+			baseConfigurationReference = 025014F703468CC3A51D61CF58176264 /* Pods-TlmLibrary_Example-TlmLibraryBinary.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TlmLibrary/TlmLibrary-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TlmLibrary/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TlmLibrary/TlmLibrary.modulemap";
-				PRODUCT_NAME = TlmLibrary;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7D15EDD1D0115858B39E177D973EC2F4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7256336BC129852EDC23A0A0365E69AB /* Pods-TlmLibrary_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TlmLibrary_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TlmLibrary_Example/Pods-TlmLibrary_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TlmLibrary_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -770,167 +496,79 @@
 			};
 			name = Release;
 		};
-		96893C99C0B052AE7FBCFBF1D0BB20EE /* Debug */ = {
+		A2B4885D5480B117B203EA2C9E9A5945 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 060D6F61C4BF7807D4B1CB532901AEB0 /* Pods-TlmLibrary_Tests.debug.xcconfig */;
+			baseConfigurationReference = 6EA4B1B72D004F86874C52715898CC95 /* Pods-TlmLibrary_Example.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TlmLibrary_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TlmLibrary_Tests/Pods-TlmLibrary_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TlmLibrary_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		B2E52370F534DFE0FF7634F754F4F618 /* Release */ = {
+		DD4AB77E2DBD18D6CFBD54B0D080A4EA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */;
+			baseConfigurationReference = 1F06AED8509A68B0B7C5C4C59D673149 /* Pods-TlmLibrary_Example.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CEA992D818C17C13A97E42D0734BF7D3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F1EA5441349FB078AA70FA8F773FE350 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68E64B2DEE892E99FC0C01BA9D783591 /* Pods-TlmLibrary_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TlmLibrary_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TlmLibrary_Tests/Pods-TlmLibrary_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TlmLibrary_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		FCB7F36AE332FE0D85A5C019994CEA94 /* Debug */ = {
+		F5A3C4C6951FC4117C55E5C955C4C171 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EAC82198557C37E6B7F60C1AF89122EC /* TlmLibrary.xcconfig */;
+			baseConfigurationReference = 4B2091FB0D1F1F80B76B47A4540403FC /* Pods-TlmLibrary_Tests.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TlmLibrary/TlmLibrary-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TlmLibrary/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TlmLibrary/TlmLibrary.modulemap";
-				PRODUCT_NAME = TlmLibrary;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		28F6A6A6E8A505C52D1F105A2936AB5A /* Build configuration list for PBXNativeTarget "Pods-TlmLibrary_Example-TlmLibraryBinary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				605A72360B3EE75987C9B7BA3DC373B3 /* Debug */,
+				1E328BD11DD6B9F8490504C36ECEE463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -940,38 +578,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		34EF95F7D3FAEB5B052EFCD0D5CC0639 /* Build configuration list for PBXNativeTarget "Pods-TlmLibrary_Tests" */ = {
+		74AFCF1B87DB972431DC31705FC90BBF /* Build configuration list for PBXNativeTarget "Pods-TlmLibrary_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				96893C99C0B052AE7FBCFBF1D0BB20EE /* Debug */,
-				F1EA5441349FB078AA70FA8F773FE350 /* Release */,
+				F5A3C4C6951FC4117C55E5C955C4C171 /* Debug */,
+				2FC118BA0D8763DD1407A0A0BDA6C01A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		644EC868B397A8BD81245B09FBD1DB30 /* Build configuration list for PBXNativeTarget "TlmLibrary" */ = {
+		8839811117CA585DC087DA02D5E47C19 /* Build configuration list for PBXNativeTarget "Pods-TlmLibrary_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FCB7F36AE332FE0D85A5C019994CEA94 /* Debug */,
-				7502BDFD9B1FEF450A00FDDBCCDFD5E4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7A894EC12D2C2054FE0EFED6F35AA414 /* Build configuration list for PBXNativeTarget "Pods-TlmLibrary_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7D15EDD1D0115858B39E177D973EC2F4 /* Debug */,
-				35DDADADA146F09B902BE9D4E62713FB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F28097D43AF5CD8DA838ABD52A053790 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CEA992D818C17C13A97E42D0734BF7D3 /* Debug */,
-				B2E52370F534DFE0FF7634F754F4F618 /* Release */,
+				A2B4885D5480B117B203EA2C9E9A5945 /* Debug */,
+				DD4AB77E2DBD18D6CFBD54B0D080A4EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,11 +1,17 @@
-use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/tom555cat/PrivateCocoaRepo.git'
+
+#use_frameworks!
 
 target 'TlmLibrary_Example' do
   pod 'TlmLibrary', :path => '../'
 
+  target 'TlmLibraryBinary' do
+   
+  end
+  
   target 'TlmLibrary_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase'
   end
 end
